@@ -1,4 +1,6 @@
 # Hydejack
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/qwtel/hydejack.svg)](https://greenkeeper.io/)
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hydejack.svg)](https://badge.fury.io/rb/jekyll-theme-hydejack)
 
 **Hydejack** is a Jekyll theme with JavaScript powers, combining the best of static sites and modern web apps.
