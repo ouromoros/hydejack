@@ -8,8 +8,11 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
+    I like learning new things. They drown me in thoughts and remind me that my personal
+    feelings don't get to be rules of the universe.
 
-    Open `_data/authors.yml` to edit this text.
+    Currently I'm about to become a programmer and I hope
+    it will prove to be a ~~justified~~ right choice.
 
   # This photo will be used in the about section
   picture:

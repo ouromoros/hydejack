@@ -57,11 +57,10 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-paginate
-  jekyll-redirect-from
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo-data
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
