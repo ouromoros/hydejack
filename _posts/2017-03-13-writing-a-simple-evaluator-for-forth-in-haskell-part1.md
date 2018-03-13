@@ -4,7 +4,7 @@ title: Writing a simple evaluator for Forth in Haskell, Part I
 tags: [haskell, programming]
 ---
 
-In this post I'm gonna introduce to you the basic ideas of *the Forth programming language* and provide a basic skeleton of a simple evaluator for it in Haskell.
+In this post I will introduce the basics of *the Forth programming language* and provide the basic skeleton of a simple Haskell evaluator we're going to write.
 
 ## Table of Contents
 {:.no_toc}
