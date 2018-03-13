@@ -30,20 +30,20 @@ The above is the official definition of the Forth programming language. Ok, if y
 
 While Forth seems to be a very customizable and powerful language (honestly, I have no idea), I'm only going to implement very limited features here. So basically you only need to know several things about Forth:
 
-* In Forth you work with a **stack**. Basically you just manipulate the stack with different commands. You can also define your own command. The commands don't have arguments. You can say that they take the things on the stack as arguments and then pushes the result back on the stack.
+* In Forth you work with a **stack**. You manipulate the stack with different operations. You can also define your own operation. The operations don't have arguments. You can say that they take the things on the stack as arguments and then pushes the result back on the stack.
 * To keep things simple, we are only going to support signed integers on the stack here.
-* We evaluate the program one line at a time. Each line would contain multiple commands or could be a definition of a new command (could overload existing one).
-* The basic commands we are going to support are the following:
+* We evaluate the program one line at a time. Each line would contain multiple operations or could be a definition of a new operation (could overload existing one).
+* The basic operations we are going to support are the following:
 * - Number.: `1`, `289`, `1024`, etc. A number gets pushed on the stack and does nothing else.
-  - Arithmetic commands: `+`, `-`, `*`, `/`. These are pretty self-explanatory. They take the first two things on the stack and compute the result which is put back to the top of stack. One thing to notice here is that the **top** item is treated as **second** argument here.
-  - Stack manipulation command: `DUP`, `DROP`, `SWAP`, `OVER`. `DUP` just duplicates the top item on the stack. `DROP` drops the top item. `SWAP` swaps the top two items. `OVER` duplicates the second item on the stack and pushes it to the top.
-  - Defining a new command: `: word-name definition ;`. Word-name is the name of the new command, followed by the definition of the command which is typically a combination of multiple other commands.
+  - Arithmetic operations: `+`, `-`, `*`, `/`. These are pretty self-explanatory. They take the first two things on the stack and compute the result which is put back to the top of stack. One thing to notice here is that the **top** item is treated as **second** argument here.
+  - Stack manipulation operations: `DUP`, `DROP`, `SWAP`, `OVER`. `DUP` just duplicates the top item on the stack. `DROP` drops the top item. `SWAP` swaps the top two items. `OVER` duplicates the second item on the stack and pushes it to the top.
+  - Defining a new operation: `: word-name definition ;`. Word-name is the name of the new operation, followed by the definition of the operation which is typically a combination of multiple other operaions.
 
 So finally we're ready to go now. If you don't get it, that's okay because you can always look back when things get confusing.
 
 ## First attempt
 
-So at first this all seem a very simple task (and it is). You just keep a stack and mapping of commands and do everything. Without much thought, I just started writing the program as usual, hoping the implementation details would reveal themselves as I write on.
+So at first this all seem a very simple task (and it is). You just keep a stack and mapping of operations and do everything. Without much thought, I just started writing the program as usual, hoping the implementation details would reveal themselves as I write on.
 
 Yet they didn't, and I got stuck. It seemed that all things I could think of are procedural calls and mutable data structures, and I could hardly write a few lines. It lasted quite a while before it dinner time, then only after I managed to sort things out during the time not in front of my computer did I begin to actually work on it.
 
