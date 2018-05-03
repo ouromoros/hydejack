@@ -2,6 +2,7 @@
 layout: post
 title: The N-queens Problem in Haskell
 tags: [haskell, programming]
+categories: [English]
 ---
 It suddenly comes to me that writing a Haskell solution for the N-queens problem would be very good practice. Since an efficient solution isn't very obvious (for me), I decide to do some explorations.
 

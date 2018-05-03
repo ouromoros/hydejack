@@ -6,8 +6,6 @@ description: >
   While so many things wander into this world and then vanish for no reason, my thoughts are not one of them, or at least I hope so.
   Anyway, **DON'T PANIC**.
   
-menu: true
-order: 4
 ---
 I have so many thoughts everyday I can't really live a simple life without letting them go. I make mistakes and forget things
 that are not supposed to be forgotten, so I write them down and hope I will remember to pick them up when the right time comes.
