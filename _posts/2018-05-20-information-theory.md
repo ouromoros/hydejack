@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Information Theory: The Phantom of the Bits
+title: 'Information Theory: The Phantom of the Bits'
 tags: [CS]
 categories: [English]
 ---
