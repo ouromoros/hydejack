@@ -4,7 +4,6 @@ title: Information Theory: The Phantom of the Bits
 tags: [CS]
 categories: [English]
 ---
-
 I've been reading *Information Theory* by David Mackey every now and then during this term. It is a big book (at least to me), over 500 pages thick, and has many time-killing exercises. The frustrating part of it is that, **every** page is worth reading and putting efforts into. No immediately obvious way exists for me to master the book in like one week, which is the average time that I get bored and eventually abandon a book I'm reading.
 
 So why read it if it takes so much time? Time, above all, is what we programmers (if not everyone) values most and are (will be) paid for. Why torture yourself with some old theories full of mathematical formulas, while you can learn some new language or fancy frameworks that are actually **useful**? If you are asking yourself the above question, you can now close this web page and do whatever fits you. Nothing prevents you from doing so, but if your curiosity craves more, then I'm glad to help.
