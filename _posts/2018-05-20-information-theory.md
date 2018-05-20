@@ -9,7 +9,7 @@ I've been reading *Information Theory* by David Mackey every now and then during
 
 So why read it if it takes so much time? Time, above all, is what we programmers (if not everyone) values most and are (will be) paid for. Why torture yourself with some old theories full of mathematical formulas, while you can learn some new language or fancy frameworks that are actually **useful**? If you are asking yourself the above question, you can now close this web page and do whatever fits you. Nothing prevents you from doing so, but if your curiosity craves more, then I'm glad to help.
 
-I'm going to throw you some *realistic* conclusions without giving the proof. Don't worry, I'll explain them in an intuitive way later. Just want to catch your eyes first. (I still won't give the formal proof though, they are too scary to fit the theme here.)
+I'm going to throw you some *realistic* conclusions without giving the proof. Watch out, you may already have some of them in mind, but this will be *formal* conclusion that you have always longed for.
 
 ## Noisy Channel
 
