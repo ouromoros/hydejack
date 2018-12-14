@@ -4,7 +4,6 @@ title: 'Implementing Lazy List in Python'
 tags: [Programming, Python]
 categories: [English]
 ---
-# What We will Build
 
 In this article, we will implement a lazy list that will be much like `Data.List` in Haskell-- actually it'll share most of the API with the Haskell list. Don't you worry about it. We're using Python here, and you're not expected to have any experience with Haskell.
 
