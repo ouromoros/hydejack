@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Node.js项目TypeScript与JavaScript混合开发指南'
-tags: [Other]
+tags: [Other, Node.js]
 categories: [Chinese]
 comments: true
 ---
