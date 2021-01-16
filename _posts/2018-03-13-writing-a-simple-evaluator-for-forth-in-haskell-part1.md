@@ -9,7 +9,6 @@ comments: true
 In this post I will introduce the basics of *the Forth programming language* and provide the basic skeleton of a simple Haskell evaluator we're going to write.
 
 ## Table of Contents
-{:.no_toc}
 0. table list
 {:toc}
 
