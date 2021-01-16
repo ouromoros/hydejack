@@ -3,6 +3,7 @@ layout: post
 title: 'Node.js项目TypeScript与JavaScript混合开发指南'
 tags: [Other]
 categories: [Chinese]
+comments: true
 ---
 
 Node.js作为服务器开发框架来说性能足够达到要求，有各种丰富的库支持，开发速度也快，很适合后台业务服务的开发。但JavaScript作为一个编程语言各方面实在是惨不忍睹，涉及到复杂的业务逻辑时代码复杂度会迅速变大，非常难以维护，因此使用微软为解决这个问题所创建的TypeScript才是正解，但罗马不是一日建成的，主观上我们希望原来的项目可以马上切换到TypeScript，但实际上我们不免要面对遗留代码以及老的JS库的问题，这就导致。
