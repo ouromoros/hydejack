@@ -67,6 +67,8 @@ a {
   max-width: 100%;
   margin-bottom: 1rem;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 
   &.lead {
     max-width: calc(100% + 2rem);
