@@ -2,7 +2,7 @@
 layout: post
 title: 'TypeScript高级类型实践'
 tags: [CS]
-categories: [Other]
+categories: [Chinese]
 comments: true
 ---
 
