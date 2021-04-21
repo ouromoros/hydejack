@@ -6,13 +6,7 @@ categories: [Other]
 comments: true
 ---
 
-## 背景
-
-`protobufjs`库生成的`d.ts`文件中解码结果的类型不符合预期，proto3协议中规定了解码结果的标量应该都具有默认值，但解码的类型定义中却依然会带有`undefined`和`null`，这导致用户代码为了使编译通过不得不对`null`和`undefined`做额外的检查（`strict`为`true`时），十分影响正常使用。
-
-最理想的情况应该是由`protobufjs`库直接在生成的文件中提供正确的解码结果，而在搜索之后只发现了一个未解决的[远古issue](https://github.com/protobufjs/protobuf.js/issues/1171)，应该是因为历史原因和兼容性考虑一直没有解决，于是就考虑自己想办法解决这个问题。
-
-调研一番之后发现TypeScript的类型操作方法异常强大，将一个类型递归地去掉`null`和`undefined`生成新的类型也是可以做到的，这样一看既然TypeScript的类型系统这么强大，谁还需要Haskell呢（误）。
+写此文的背景是`protobufjs`库生成的`d.ts`文件中解码结果的类型不符合预期，proto3协议中规定了解码结果的标量应该都具有默认值，但解码的类型定义中却依然会带有`undefined`和`null`，这导致用户代码为了使编译通过不得不对`null`和`undefined`做额外的检查（`strict`为`true`时），十分影响正常使用。最理想的情况应该是由`protobufjs`库直接在生成的文件中提供正确的解码结果，而在搜索之后只找到了一个未解决的[远古issue](https://github.com/protobufjs/protobuf.js/issues/1171)，应该是因为历史原因和兼容性考虑一直没有解决，于是就考虑自己想办法解决这个问题。调研一番之后发现TypeScript的类型操作方法异常强大，将一个类型递归地去掉`null`和`undefined`生成新的类型也是可以做到的——既然TypeScript的类型系统这么强大，谁还需要Haskell呢（误）。
 
 ## Mapped Types
 
